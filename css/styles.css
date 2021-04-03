@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter";
+}
+
+.main-wrapper .header {
+  background-image: linear-gradient(to left, #16222a, #3a6073);
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 200px;
+}
+.main-wrapper .header h1 {
+  padding-top: 5rem;
+}
+.main-wrapper #vue {
+  text-align: center;
+  width: 100%;
+  margin: 1rem;
+}
+.main-wrapper #vue h2 {
+  text-align: center;
+}
+.main-wrapper #vue .food-item {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.main-wrapper #vue .food-item .food {
+  display: inline-block;
+  height: 400px;
+  width: 25%;
+  padding: 2rem 1rem 8rem 1rem;
+}
+.main-wrapper #vue .food-item .food button {
+  margin-top: 1em;
+  width: 7em;
+  height: 25px;
+}
+.main-wrapper #vue .food-item .food .description {
+  height: 20px;
+  font-size: 0.8em;
+  margin: 0.2em;
+}
+.main-wrapper #vue .food-item .food img {
+  width: 100%;
+  height: 300px;
+}
+.main-wrapper #vue .food-item .food .name {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
